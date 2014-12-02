@@ -41,15 +41,15 @@ go to the app,go to mainactivity.class.
 copy the code exactly as it is from the oncreate function
 to your private app in your oncreate function, dont forget to copy the
 "SocialAuthAdapter adapter;" to the class.
-dontforget to change the setcontentViews of the functions.and names of the acivities in the functions.
-the setcontentview that located in the onComplete function is the content View that u will
+you have to change the names of your setcontentViews and activities to fit your personal app.
+the setcontentview that located in the onComplete function is that one u will
 see after successful logging.
 go to res/layout and login_activity.xml.
 copy from line 11 to line 67 to your app xml.
 and copy the drawable-mdpi folder to your apps to.
 copy the assets folder to your app.
 go to your androidmanifest.xml
-and add those lines lines below the uses-sdk lines:
+and add those lines below the uses-sdk lines:
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
 
