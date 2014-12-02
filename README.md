@@ -51,7 +51,8 @@ and copy the drawable-mdpi folder to your apps to.
 copy the assets folder to your app.
 go to your androidmanifest.xml
 and add those lines lines below the uses-sdk lines:
-
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
 
 copy the libs folder to your app.
 
@@ -62,4 +63,4 @@ to change to app keys go to assets folder and to oath_consumer.properties.
 for now u can only logging to the app but u cannot sign out..
 i will add this option in next version.
 
-thanks for using my library.
+thanks for using my modified library.
