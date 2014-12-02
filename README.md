@@ -7,8 +7,7 @@ GETTING STARTED!
 
 Stage 1:
 
-First of all, you need to register your application, please check this links: Facebook, Twitter, LinkedIn, GooglePlus.
-at the links:
+First of all, you need to register your application at the links:
 twitter- "http://twitter.com/apps"
 facebook- "https://developers.facebook.com/apps"
 linkedin- "http://developer.linkedin.com/"
