@@ -50,6 +50,7 @@ and copy the drawable-mdpi folder to your apps to.
 copy the assets folder to your app.
 go to your androidmanifest.xml
 and add those lines below the uses-sdk lines:
+
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
 
